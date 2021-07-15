@@ -1,0 +1,42 @@
+.Search-container {
+    background-color: #F45B69;
+    display: flex;
+    flex-direction: column;
+    margin: 5em 5em 3em; /* 5em top, 6em l&r, 3em bottom*/
+    padding: 3em; /*3em all around*/
+
+    position: relative;
+}
+
+.Search-prompt {  
+    height: em;
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.Search-bar {
+    background-color: #FFFFFF;
+
+    width: 900px;
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 7px 7px 0 -3px #4062BB;
+
+    padding: 0.5em;
+}
+
+.testbox {
+    grid-gap: 2em;
+    display: flex;
+}
+
+.Search-button-arrow {
+    background-color: #F45B69;
+}
+
+.Search-button-camera {
+    background-color: #F45B69;
+}

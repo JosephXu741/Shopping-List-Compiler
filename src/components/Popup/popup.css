@@ -1,0 +1,33 @@
+.popup {
+    background-color: white;
+    height: 70vh;
+    width: clamp(30vw, 35vw, 40vw);
+    position:absolute;
+
+    border-radius: 5px;
+    border:1px solid black;
+
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    justify-self: center;
+    align-self: center;
+    box-shadow: 3px 3px 0px #4062BB;
+    margin-top: -10%;
+
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+.popupItems {
+    display:flex;
+    margin-bottom:auto /* push following elements to bottom */
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top:auto /* push it and following elements to bottom */
+}

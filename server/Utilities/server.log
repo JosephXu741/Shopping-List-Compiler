@@ -1,0 +1,23 @@
+nohup: ignoring input
+2021-07-16 03:06:27.407007: I tensorflow_serving/model_servers/server.cc:89] Building single TensorFlow model file config:  model_name: saved_model model_base_path: /tmp/
+2021-07-16 03:06:27.407466: I tensorflow_serving/model_servers/server_core.cc:465] Adding/updating models.
+2021-07-16 03:06:27.407684: I tensorflow_serving/model_servers/server_core.cc:591]  (Re-)adding model: saved_model
+2021-07-16 03:06:27.507889: I tensorflow_serving/core/basic_manager.cc:740] Successfully reserved resources to load servable {name: saved_model version: 1}
+2021-07-16 03:06:27.508335: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: saved_model version: 1}
+2021-07-16 03:06:27.508706: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: saved_model version: 1}
+2021-07-16 03:06:27.509083: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:38] Reading SavedModel from: /tmp/1
+2021-07-16 03:06:27.555601: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:90] Reading meta graph with tags { serve }
+2021-07-16 03:06:27.556014: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:132] Reading SavedModel debug info (if present) from: /tmp/1
+2021-07-16 03:06:27.556398: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-16 03:06:27.762140: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:206] Restoring SavedModel bundle.
+2021-07-16 03:06:27.789122: I external/org_tensorflow/tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 3599995000 Hz
+2021-07-16 03:06:27.976203: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:190] Running initialization op on SavedModel bundle at path: /tmp/1
+2021-07-16 03:06:28.125960: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:277] SavedModel load for tags { serve }; Status: success: OK. Took 616873 microseconds.
+2021-07-16 03:06:28.144200: I tensorflow_serving/servables/tensorflow/saved_model_warmup_util.cc:59] No warmup data file found at /tmp/1/assets.extra/tf_serving_warmup_requests
+2021-07-16 03:06:28.172719: I tensorflow_serving/core/loader_harness.cc:87] Successfully loaded servable version {name: saved_model version: 1}
+2021-07-16 03:06:28.174667: I tensorflow_serving/model_servers/server_core.cc:486] Finished adding/updating models
+2021-07-16 03:06:28.175005: I tensorflow_serving/model_servers/server.cc:367] Profiler service is enabled
+2021-07-16 03:06:28.176398: I tensorflow_serving/model_servers/server.cc:393] Running gRPC ModelServer at 0.0.0.0:8500 ...
+[evhttp_server.cc : 245] NET_LOG: Entering the event loop ...
+2021-07-16 03:06:28.179174: I tensorflow_serving/model_servers/server.cc:414] Exporting HTTP/REST API at:localhost:8501 ...

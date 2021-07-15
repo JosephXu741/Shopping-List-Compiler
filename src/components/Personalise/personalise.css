@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Libre-Franklin;
+    src: url(https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap);
+}
+
+.margins {
+    margin-top: -15px;
+}
+
+.shopping-checklist-container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1em;
+    height: 90vh;
+    padding: 50px 3em 2vw 3em;
+    background: #87D4D4;
+    margin-top: -15px;
+
+}
+.checklist-item-container {
+    display: flex;
+    grid-gap: 1em;
+    width: 50vw;
+    font-family: Libre-Franklin, sans-serif;
+    padding: 0.5em 0.5em 0.5em 3em;
+    background-color: #FFFFFF;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 0.25vw #F45B69;
+}
+
+/* Style the "Add" button */
+.unchecked-button {
+    width: 1em;
+    height: 1em;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+.checked-button {
+    width: 1em;
+    height: 1em;
+    background-color: #000;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+.check-button:hover {
+    background-color: #f37c86;
+}
+.check-button.checked {
+    background-color:#000;
+}
+
+.delete-button {
+    width: 2em;
+    height: 2em;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+    border-radius: 3px;
+}
+
+.delete-button > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.edit-button {
+    width: 2em;
+    height: 2em;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+.edit-button > img {
+    object-fit: cover;
+    width: 100%;
+}
