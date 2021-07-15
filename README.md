@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+# Mac n Cheese
+Instructions to serve LSTM Model and backend server coming soon!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
